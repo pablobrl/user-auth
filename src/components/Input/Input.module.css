@@ -1,0 +1,24 @@
+.input {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	display: block;
+	width: 100%;
+	border: 1px solid #c7c7c7;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	outline-style: solid;
+	outline-color: transparent;
+	outline-width: 2px;
+	transition: outline-color ease-in-out 150ms;
+	color: var(--c-text-primary);
+}
+
+.input:focus {
+	outline-color: var(--c-brand);
+}
+
+.input::placeholder {
+	color: var(--c-text-secondary);
+}

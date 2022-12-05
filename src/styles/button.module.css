@@ -1,0 +1,12 @@
+.button {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	padding: 0 1rem;
+	min-height: 2.5rem;
+	border-radius: 0.5rem;
+}

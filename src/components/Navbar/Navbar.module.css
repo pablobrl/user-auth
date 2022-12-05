@@ -1,0 +1,32 @@
+.navbar {
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 1rem;
+	left: 0;
+}
+
+.list {
+	display: flex;
+	gap: 1rem;
+	list-style: none;
+}
+
+.list a {
+	text-decoration: none;
+}
+
+.activeLink {
+	color: var(--c-brand);
+	font-weight: 500;
+}
+
+.link {
+	color: var(--c-text-secondary);
+}
+
+.link:hover {
+	color: var(--c-text-primary);
+}

@@ -1,0 +1,30 @@
+.text {
+	color: var(--c-text-primary);
+	margin-bottom: 0.5rem;
+}
+
+.username {
+	font-weight: 700;
+	font-size: 5rem;
+	line-height: 5.5rem;
+	color: var(--c-brand);
+}
+
+.logout {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	composes: button from '../../styles/button.module.css';
+	font-weight: 500;
+	color: var(--c-brand);
+	background-color: transparent;
+	border: 2px solid var(--c-brand);
+	transition: background-color ease-in-out 150ms;
+	margin-top: 2rem;
+}
+
+.button:hover {
+	background-color: #4f46e520;
+}
